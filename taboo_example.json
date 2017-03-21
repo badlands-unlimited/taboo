@@ -1,13 +1,18 @@
 # taboo
 {
-  "activities": [
+  "obligations": [
     {
-      "activity": "nap",
-      "time_start": "* 16 * * *",
-      "time_length": "* 3 * * *"
+      'activity': "nap", 
+      "start": (16, 0), 
+      "length": (3, 0), 
+      "frequency": [0,1,2,3,4,5,6], 
       "rigidity": 80
+    },
+    {
+      ""
     }
-  ],
+    ]
+
 }
 
 # conversant
