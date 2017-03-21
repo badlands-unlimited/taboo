@@ -39,15 +39,21 @@ class Taboo():
 
     # questions
 
-    def initiate(self):
-        pass
+    def initiate(self, phone):
+        # check if theres memory
+        if hasAccount(phone):
+            self.reinitiate(phone)
+        else:
+            # make an account for the texter
+            # 
+            pass
 
     def reinitiate(self):
         pass
 
-
     # replies
 
+    # get her a venmo account ???
     def request_venmo_charge(self, phone, amount, reason):
         pass
 
@@ -59,3 +65,7 @@ class Taboo():
         # schedule venmo charges
         # schedule responses
         pass
+
+class User():
+    def __init__(self, phone):
+        return "HELP!!!!!"
