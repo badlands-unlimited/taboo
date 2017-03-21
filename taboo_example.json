@@ -1,0 +1,18 @@
+# taboo
+{
+  "activities": [
+    {
+      "activity": "nap",
+      "time_start": "* 16 * * *",
+      "time_length": "* 3 * * *"
+      "rigidity": 80
+    }
+  ],
+}
+
+# conversant
+{
+  phone: "",
+  name: "",
+
+}
